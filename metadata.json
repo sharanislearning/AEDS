@@ -1,0 +1,7 @@
+{
+  "name": "AERS Pro - Emergency Response & Hospital Navigation",
+  "description": "Tactical emergency response system with real-time dispatch tracking, hospital capacity monitoring, interactive SOS activation, and navigation.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

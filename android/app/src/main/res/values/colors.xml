@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="emergency_orange">#FFFF3E00</color>
+    <color name="surface_dark">#FF0D0D0D</color>
+    <color name="surface_card">#FF141414</color>
+    <color name="border_subtle">#33FFFFFF</color>
+</resources>

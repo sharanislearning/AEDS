@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AERS Pro</string>
+    <string name="title_home">Home</string>
+    <string name="title_hospitals">Hospitals</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="sos_dispatch_active">SOS DISPATCH ACTIVE</string>
+    <string name="emergency_sos">EMERGENCY SOS</string>
+</resources>

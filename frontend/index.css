@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #ffffff;
+    --primary-accent: #FF3E00;
+    --primary-cyan: #96ffee;
+    --background: #000000;
+    --surface: #0a0a0a;
+    --surface-container-low: #111111;
+    --surface-container: #161616;
+    --surface-container-high: #222222;
+    --surface-container-highest: #2e2e2e;
+    --on-surface: #ffffff;
+    --on-surface-variant: #a1a1aa;
+    --outline: #3f3f46;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+    user-select: none;
+  }
+}
+
+.font-display {
+  font-family: 'Unbounded', 'Syne', 'Plus Jakarta Sans', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-condensed {
+  font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.font-impact {
+  font-family: 'Unbounded', 'Cabinet Grotesk', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.font-mono-data {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.outline-text {
+  -webkit-text-stroke: 1.5px currentColor;
+}
+
+.outline-text-white {
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent;
+}
+
+.outline-text-accent {
+  -webkit-text-stroke: 2px #FF3E00;
+  color: transparent;
+}
+
+.pb-safe {
+  padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+}
+
+.pt-safe {
+  padding-top: max(16px, env(safe-area-inset-top, 16px));
+}
+
+/* Custom scrollbar hiding for slick mobile feel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
